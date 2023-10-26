@@ -61,7 +61,7 @@
       <a class="btn  text-white bg-bike-primary">Login</a>
     </div>
   </nav>
-  <!-- ==============sLIDER====== -->
+  <!-- ==============SLIDER Sections====== -->
   <div class="carousel w-full">
     <div id="slide1" class="carousel-item relative w-full">
       <!-- ----------------------------------------- -->
@@ -147,19 +147,21 @@
   </div>
 
 </header>
+<!-- ===========Main Sections================= -->
     <main class=" md:container md:mx-auto">
-      <section>
-        <h3 class="text-5xl text-center mb-12 font-bold text-gray-700">Fetured Bikes In This Year</h3>
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:p-24   items-center">
-          <img src="./images/others/feature-bike.png" alt="">
-          <img src="./images/others/feature-bike.png" alt="">
-          <img src="./images/others/feature-bike.png" alt="">
+<!-- =============Fetured Sections============== -->
+      <section class="">
+        <h3 class=" text-2xl lg:text-5xl  text-center mb-12 font-semibold lg:font-bold text-gray-700">Fetured Bikes In This Year</h3>
+        <div class="grid grid-row md:grid-cols-2 lg:grid-cols-3 justify-center gap-32 p-4 lg:p-24">
+          <div class="w-[288px] h-[244px]"><img class="" src="./images/others/feature-bike.png" alt=""></div>
+          <div class="w-[288px] h-[244px]"><img src="./images/others/feature-bike.png" alt=""></div>
+          <div class="w-[288px] h-[244px]"><img src="./images/others/feature-bike.png" alt=""></div>
         </div>
       </section>
-<!-- ============== Card ================================ -->
+<!-- ============== Card Sections ================================ -->
       <section>
-        <h3 class="text-5xl font-bold text-center text-gray-700">latest Bikes</h3>
-        <div class="lg:p-24 grid grid-cols-2 lg:grid-cols-3 text-gray-700">
+        <h3 class="text-5xl mt-12 font-bold text-center text-gray-700">latest Bikes</h3>
+        <div class="lg:p-24 p-4 grid grid-row md:grid-cols-2 lg:grid-cols-3 text-gray-700 justify-center">
            <div class="card w-96 bg-base-100 shadow-xl">
               <figure class="px-10 pt-10">
                 <img src="./images/others/latest1.png" alt="Shoes" class="rounded-xl" />
@@ -200,6 +202,75 @@
             </div>
 
         </div>
+      </section>
+
+<!-- ================ Customer Review Sections===================== -->
+
+      <section class="my-24 ">
+        <h3 class="mb-12 text-5xl font-semibold text-center text-gray-700">Happy <span class="text-orange-500">Clients says</span></h3>
+        <div class="grid grid-row md:grid-cols-2 lg:grid-cols-3 p-4 lg:p-24 justify-center">
+          <div class="card w-96 p-9 bg-base-100 shadow-xl">
+            <figure><img class="w-36" src="./images/others/user-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p class="text-center mt-4 mb-4 text-gray-700">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+              <div class="rating justify-center">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="">
+               <h4 class="text-center text-base mt-4 mb-4 font-semibold text-[#23A6F0]">Regina Miles</h4>
+               <p class="text-center text-gray-700">Banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 p-9 bg-base-100 shadow-xl">
+            <figure><img class="w-36" src="./images/others/user-2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p class="text-center mt-4 mb-4 text-gray-700">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+              <div class="rating justify-center">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              </div>
+              <div class="">
+               <h4 class="text-center text-base mt-4 mb-4 font-semibold text-[#23A6F0]">Regina Miles</h4>
+               <p class="text-center text-gray-700">Banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 p-9 bg-base-100 shadow-xl">
+            <figure><img class="w-36" src="./images/others/user-3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p class="text-center mt-4 mb-4 text-gray-700">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+              <div class="rating justify-center">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+              </div>
+              <div class="">
+               <h4 class="text-center text-base mt-4 mb-4 font-semibold text-[#23A6F0]">Regina Miles</h4>
+               <p class="text-center text-gray-700">Banker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
       </section>
     </main>
     <footer>
